@@ -170,4 +170,3 @@ Here we can see the **three containers** (nginx, mysql, notes-app) running toget
 * Deploying multi-container apps with Docker Compose.
 
 
-```
