@@ -132,29 +132,25 @@ flowchart LR
 ### ✅ Successful Jenkins Pipeline
 This shows the CI/CD pipeline running successfully with all stages completed (Clone → Build → Push → Deploy).
 
-![Pipeline Success](<img width="1919" height="416" alt="Screenshot 2025-10-01 162308" src="https://github.com/user-attachments/assets/410a97c1-2ff6-4d8f-b4c1-22416e4d5c48" />
-)
+![Pipeline Success](screenshots/pipeline-success.png)
 
 
 ### 🐳 Docker Hub Image
 The Docker image is automatically pushed to my Docker Hub account after the build.
 
-![Docker Hub Image](<img width="1621" height="438" alt="Screenshot 2025-10-01 162215" src="https://github.com/user-attachments/assets/5cc9055e-4d18-4d26-a7a1-5d88a1c815ea" />
-)
+![Docker Hub Image](screenshots/dockerhub-image.png)
 
 
 ### 📝 Notes App Running (Port 8000)
 The app is running successfully on **http://localhost:8000** behind Nginx.
 
-![Notes App Running](<img width="1910" height="836" alt="Screenshot 2025-10-01 162401" src="https://github.com/user-attachments/assets/ac24bc4e-060f-4391-baec-b3a1ba42fbd6" />
-)
+![Notes App Running](screenshots/notesapp-running.png)
 
 
 ### 📦 Containers Running
 Here we can see the **three containers** (nginx, mysql, notes-app) running together via Docker Compose.
 
-![Containers Running](<img width="1763" height="293" alt="Screenshot 2025-10-01 162503" src="https://github.com/user-attachments/assets/16f45d59-cad3-43a6-b484-cc2f474be096" />
-)
+![Containers Running](screenshots/containers-running.png)
 
 
 ---
